@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.oneProduct {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    height: 550px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.oneProduct h2{
+    display: flex;
+    justify-content: center;
+}
+
+.oneProduct p{
+    margin-left: 5px;
+}
+
+.oneProductPic img {
+    height: 280px;
+    justify-content: center;
+    object-fit:cover;
+}
+
+.oneProductPic{
+    display: flex;
+    justify-content: center;
+}
+
+.bottomInfo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+
+}
